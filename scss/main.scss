@@ -1,0 +1,85 @@
+//colors
+
+//primary
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+//neutral
+$Very-Dark-Blue: hsl(234, 12%, 34%);
+$Grayish-Blue: hsl(229, 6%, 66%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+
+//fonts
+$main-font: 'Poppins', sans-serif;
+
+//-------------------------------------------------------------------------------------
+
+
+html{
+    background: $Very-Light-Gray;
+    font-family: $main-font;
+}
+header{
+    color:$Very-Dark-Blue;
+    text-align: center;
+    position:relative;
+    top:5vh;
+    font-size:18px;
+    .head-1{
+        font-weight: 200;
+    }
+    .head-2{
+        font-weight: 600;
+    }
+}
+
+.info-text{
+    text-align: center;
+    position:relative;
+    top:6vh;
+    .info-article{
+        color: $Grayish-Blue;
+        font-size: 19px;
+        font-weight: 400;
+    }
+}
+
+//cards
+
+.card-section{
+    @import "card";
+    position:relative;
+    top:5em;
+    display:flex;
+    flex-direction:row;
+    flex-direction:center;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.card-1{
+    border-top:5px solid $Cyan;
+}
+.card-2{
+    border-top:5px solid $Red;
+}
+.card-3{
+    border-top:5px solid $Orange;
+}
+.card-4{
+    border-top:5px solid $Blue;
+}
+
+
+
+
+
+
+
+
+.footer{
+    position:relative;
+    top:9vh;
+}

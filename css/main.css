@@ -1,0 +1,90 @@
+html {
+  background: #fafafa;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  color: #4c4e61;
+  text-align: center;
+  position: relative;
+  top: 5vh;
+  font-size: 18px;
+}
+header .head-1 {
+  font-weight: 200;
+}
+header .head-2 {
+  font-weight: 600;
+}
+
+.info-text {
+  text-align: center;
+  position: relative;
+  top: 6vh;
+}
+.info-text .info-article {
+  color: #a3a5ae;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.card-section {
+  position: relative;
+  top: 5em;
+  display: flex;
+  flex-direction: row;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+.card-section .card {
+  width: 340px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 25px;
+  padding-left: 40px;
+  box-shadow: 0 4px 8px 0 rgba(149, 170, 190, 0.377), 0 6px 15px 0 rgba(144, 175, 185, 0.281);
+}
+.card-section .card .card-head {
+  color: #4c4e61;
+  font-size: 1.5em;
+  font-weight: 600;
+  position: relative;
+  top: 1.2em;
+}
+.card-section .card .card-text {
+  color: #a3a5ae;
+  position: relative;
+  top: 1.2em;
+  font-size: 15px;
+  line-height: 2;
+}
+.card-section .card .card-icon {
+  float: right;
+  margin-right: 40px;
+  position: relative;
+  top: 2em;
+}
+
+.card-1 {
+  border-top: 5px solid #45d3d3;
+}
+
+.card-2 {
+  border-top: 5px solid #ea5353;
+}
+
+.card-3 {
+  border-top: 5px solid #fcaf4a;
+}
+
+.card-4 {
+  border-top: 5px solid #549ef2;
+}
+
+.footer {
+  position: relative;
+  top: 9vh;
+}

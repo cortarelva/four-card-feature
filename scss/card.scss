@@ -1,0 +1,32 @@
+
+
+.card{
+    width:340px;
+    height:250px;
+    border-radius: 5px;
+    background-color:white;
+    margin:25px;
+    padding-left:40px;
+    box-shadow: 0 4px 8px 0 rgba(149, 170, 190, 0.377), 0 6px 15px 0 rgba(144, 175, 185, 0.281);
+    .card-head{
+        color:$Very-Dark-Blue;
+        font-size:1.5em;
+        font-weight: 600;
+        position:relative;
+        top:1.2em;
+    }
+    .card-text{
+        color: $Grayish-Blue;
+        position:relative;
+        top:1.2em;
+        font-size:15px;
+        line-height: 2;
+    }
+    .card-icon{
+        float:right;
+        margin-right:40px;
+        position:relative;
+        top:2em;
+    }
+    
+}
