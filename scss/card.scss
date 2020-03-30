@@ -27,6 +27,34 @@
         margin-right:40px;
         position:relative;
         top:2em;
+    } 
+}
+
+//media queries
+@media all and (min-width:820px) and (max-width:1320px){
+    .card{
+        width:240px;
+        height:150px;
+        margin:10px;
+        padding-left:10px;
+
+        .card-head{
+            font-size:1em;
+            font-weight: 600;
+            top:1em;
+        }
+        .card-text{
+            top:1em;
+            font-size:10px;
+            line-height: 2;
+        }
+        .card-icon{
+            float:right;
+            margin-right:40px;
+            position:relative;
+            top:1em;
+            width: 35px;
+            height:35px;
+        }
     }
-    
 }

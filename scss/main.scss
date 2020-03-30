@@ -72,14 +72,24 @@ header{
     border-top:5px solid $Blue;
 }
 
-
-
-
-
-
-
-
 .footer{
     position:relative;
     top:9vh;
 }
+
+
+
+//media queries
+
+@media screen and (max-width:824px){
+    .card-section{
+        flex-direction:column;
+    }
+}
+
+
+
+
+
+
+
